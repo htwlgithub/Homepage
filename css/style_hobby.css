@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Shrikhand');
+body {
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+	margin: 0; 
+	background: #eee;
+	height: auto;
+    
+}
+
+.container {
+	width: 100%;
+	margin:auto;
+	
+}
+
+
+
+header {
+	height: 3.5rem;
+	width:100%;
+	background-color: #A9A9A9;
+	border-bottom: 0.2rem solid #9400B3;
+}
+
+header .container  #logo a {
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px; 
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	font-family:'Shrikhand';
+}
+
+span {
+	color:#9400B3;
+	font-size: 20px;
+}
+
+
+
+header nav {
+	float: right;
+	margin:0;
+}
+
+header li {
+	display: inline;
+    padding: 0 20px 0 20px;	
+}
+
+
+
+header li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fff;
+
+}
+header li .active {
+	color: #9400B3;
+}
+
+header li a:hover {
+	
+	color: #9400B3;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+  
+
+
+footer {
+	height: 60px;
+	background-color: #A9A9A9;
+	margin-top: 40px;
+}
+
+footer p {
+	padding-top: 20px;
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	
+}
+
