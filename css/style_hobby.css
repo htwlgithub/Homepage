@@ -21,7 +21,7 @@ header {
 	height: 3.5rem;
 	width:100%;
 	background-color: #A9A9A9;
-	border-bottom: 0.2rem solid #9400B3;
+	border-bottom: 0.2rem solid #FF69B4;
 }
 
 header .container  #logo a {
@@ -36,7 +36,7 @@ header .container  #logo a {
 }
 
 span {
-	color:#9400B3;
+	color:#FF69B4;
 	font-size: 20px;
 }
 
@@ -61,12 +61,12 @@ header li a {
 
 }
 header li .active {
-	color: #9400B3;
+	color: #FF69B4;
 }
 
 header li a:hover {
 	
-	color: #9400B3;
+	color: #FF69B4;
 }
 
 
@@ -83,13 +83,21 @@ header li a:hover {
 	margin-top: 40px;
 	padding: 3px 0;
 	color:#fff;
-	background-color:#9400B3;
+	background-color:#FF69B4;
 }
 
 #kpop p {
 	padding: 0 50px;
 	font-size: 1.2rem;
 }
+
+ h3 {
+	padding:8px 40px;
+	text-align: center;
+	background-color: #FF69B4;
+	color: #FFF;
+	
+ }
 
 .band-container {
 	margin: 40px 0;
@@ -98,7 +106,7 @@ header li a:hover {
 }
 
 .band-container .band-text {
-	padding: 0 20px;
+	padding: 0 40px;
 	text-align: left;
 }
 
@@ -111,10 +119,10 @@ header li a:hover {
 }
 
 img.band-image {
-	padding: 0 20px;
+	padding: 0 40px;
 	float:right;
-	height: 420px;
-	width: 660px;
+	height: 380px;
+	width: 600px;
 
 }
 
@@ -124,7 +132,8 @@ img.band-image {
    display: grid;
    grid-template-columns: 300px 300px 300px;
    grid-template-rows:repeat(3, 350px);
-   grid-gap:40px;
+   grid-column-gap: 10px;
+   grid-row-gap: 20px;
    margin-top:40px;
    justify-content: center;
    justify-items:center;
@@ -158,7 +167,40 @@ img.band-image {
 }
 
 
+/*song list*/
 
+
+table {
+	width: 60%;
+	left: 10%;
+	margin: 20px auto;
+	position: static;	
+}
+
+thead th {
+	padding: 10px 0;
+	background: #A9A9A9;
+	color: #FFF;
+	font-family: 'Noto-Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	width:33.3%;
+  }
+
+tr {
+   /*background-color: #fff;*/
+   margin-bottom: 10px;
+
+}
+
+td {
+   font-family:Helvetica;
+   padding: 5px 10px;
+   text-align: left;
+   text-transform: capitalize;
+   width: 33.3%;
+}
 
 
 
